@@ -12,6 +12,7 @@ const http = require('http');
 const https = require('https');
 const socket = require('socket.io');
 const chalk = require('chalk');
+const stylus = require('stylus');
 
 const app = express();
 
@@ -23,6 +24,13 @@ const cert = {
 
 app
 	.set('view engine', 'ejs')
+
+	.use(stylus.middleware({
+	  src: path.join(__dirname, 'public/res/stylus'),
+	  dest: __dirname + '/public',
+	  force: true,
+	}))
+
 	.set('views', path.join(__dirname, 'views'))
 	.use(bodyParser.json())
 	.use(cookieParser())
