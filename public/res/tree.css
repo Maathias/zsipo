@@ -1,0 +1,783 @@
+ul.ascii{  margin: 0px;  padding: 0px; }
+ul.ascii, ul.ascii ul {  margin-left: 0; padding-left: 0;  list-style: none; }
+
+ul.ascii li {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+    overflow: hidden;
+}
+
+.ascii, .ascii ol {
+  padding-left: 0;
+  list-style: none;
+}
+.ascii li::before {
+  content: "";
+}
+.ascii li  li::before {
+  content: '├──\a0';
+}
+.ascii li  li li::before {
+  content: '│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child::before {
+  content: '│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li li:last-child li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child::before {
+  content: '└──\a0';
+}
+.ascii li  li:last-child li::before {
+  content: '\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0│\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li:last-child li::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0├──\a0';
+}
+.ascii li  li:last-child li:last-child li:last-child li:last-child li:last-child li:last-child li:last-child::before {
+  content: '\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0└──\a0';
+}
+ul.ascii, ul.ascii ul {
+  padding-left: 0;
+  list-style: none;
+}

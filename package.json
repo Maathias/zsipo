@@ -1,0 +1,29 @@
+{
+  "name": "zsipo",
+  "version": "0.0.1",
+  "description": "Nawigacja ZSiPO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maathias/zsipo.git"
+  },
+  "author": "Mateusz Pstrucha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maathias/zsipo/issues"
+  },
+  "homepage": "https://github.com/Maathias/zsipo#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "socket.io": "^2.2.0"
+  }
+}
