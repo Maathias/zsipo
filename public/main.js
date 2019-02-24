@@ -1,3 +1,11 @@
 $(document).ready(function(){
-	console.log("document ready")
+
+	$("#burger").on("click", (e) => {
+		$("#drawer").toggleClass("active")
+	})
+
+	$("#drawerDimm").on("click", (e) => {
+		$("#drawer").toggleClass("active")
+	})
+
 });

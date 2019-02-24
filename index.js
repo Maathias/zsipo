@@ -2,19 +2,19 @@
 require('dotenv').config()
 
 // dependencies
-const express = require('express');
-const bodyParser = require('body-parser');
-const path = require('path');
-const fs = require("fs");
-const cookieParser = require('cookie-parser');
-const bcrypt = require('bcrypt');
-const http = require('http');
-const https = require('https');
-const socket = require('socket.io');
-const chalk = require('chalk');
-const stylus = require('stylus');
+const express = require('express'),
+	bodyParser = require('body-parser'),
+	path = require('path'),
+	fs = require("fs"),
+	cookieParser = require('cookie-parser'),
+	bcrypt = require('bcrypt'),
+	http = require('http'),
+	https = require('https'),
+	socket = require('socket.io'),
+	chalk = require('chalk'),
+	stylus = require('stylus'),
 
-const app = express();
+	app = express()
 
 const cert = {
 	key: fs.readFileSync(process.env.CERT_KEY, 'utf8'),
