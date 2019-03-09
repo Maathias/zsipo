@@ -1,21 +1,26 @@
 {
-  "short_name": "m.d.n",
-  "name": "mathias.ddns.net",
+  "short_name": "Rolnik Nysa",
+  "name": "Zespół Szkół i Placówek Oświatowych w Nysie",
+
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "img/favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "faviconb.png",
+      "src": "img/faviconb.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+
   "background_color": "#343434",
+  "theme_color": "#141414",
+
+  "start_url": "/app",
+  "scope": "/app",
+
   "display": "standalone",
-  "scope": "/",
-  "theme_color": "#141414"
+  "manifest_version": 0
 }
